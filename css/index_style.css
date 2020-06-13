@@ -10,6 +10,19 @@
     height: 100vh;
   }
 }
+@media (max-width: 600px) {
+  .spacetop {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 600px) {
+  #skills .iconworkflow {
+    display: none;
+  }
+  .navbar-brand {
+    font-size: 0.75rem;
+  }
+}
 .color {
   color: #bd5d38 !important;
 }
@@ -74,6 +87,7 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
 #about i:hover {
   background-color: #bd5d38;
 }
@@ -83,11 +97,20 @@
 #skills,
 #interest,
 #languages {
-  height: 100vh;
+  min-height: 100vh;
 }
 #about .headd {
   font-weight: 600;
   font-size: 4rem;
+}
+@media (max-width: 600px) {
+  #about .headd {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  .subtle {
+    font-size: 1.5rem;
+  }
 }
 /********************************************************************/
 #experience .cclr {
@@ -112,6 +135,14 @@
 }
 .font-subsubhead {
   font-size: 2rem;
+}
+@media (max-width: 600px) {
+  .font-subhead {
+    font-size: 1.8rem;
+  }
+  .font-subsubhead {
+    font-size: 1.5rem;
+  }
 }
 .progress-bar {
   background-color: #bd5d38;
